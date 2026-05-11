@@ -2,6 +2,8 @@
 
 Public Homebrew tap for the Tyler core CLI binary.
 
+Current Formula state: pre-first-public-release. Source-neutral binary surface is stable across v0.1 → v0.2 — the v0.2 work on the private source repo (GCP privileged exec plane) lives behind operator-only build tags and does **not** affect this public tap.
+
 ## Install (after first public release)
 
 > The Formula will be generated and updated by the agent-tyler private release workflow in a follow-up phase. Once the first public release lands here:
