@@ -1,16 +1,16 @@
 class Tyler < Formula
   desc "Tyler CLI — source-neutral vault-attach engine"
   homepage "https://github.com/JMcunst/tyler-core-dist"
-  version "0.438.0"
+  version "0.439.0"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/JMcunst/tyler-core-dist/releases/download/v0.438.0/tyler_0.438.0_darwin_arm64.tar.gz"
-      sha256 "7435cf7f0bf03816d99e0b5f36d99cdf842635a17863a19a0f7aded1d43c723c"
+      url "https://github.com/JMcunst/tyler-core-dist/releases/download/v0.439.0/tyler_0.439.0_darwin_arm64.tar.gz"
+      sha256 "f72e1e2908abfc2b754091e7e6ed6efc104a38652f30d0c4be49ae193f1ee3fe"
     else
-      url "https://github.com/JMcunst/tyler-core-dist/releases/download/v0.438.0/tyler_0.438.0_darwin_amd64.tar.gz"
-      sha256 "9ead91a66e984f881bdd1531a56f11fe2b9b245396b6d058f5876f936b24de11"
+      url "https://github.com/JMcunst/tyler-core-dist/releases/download/v0.439.0/tyler_0.439.0_darwin_amd64.tar.gz"
+      sha256 "8cc9a2b30a9a5442b3447dc91b5504b913a0a03762f371fe6973b4de0b296420"
     end
   end
 
